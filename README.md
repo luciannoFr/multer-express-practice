@@ -63,7 +63,7 @@ Los productos se estructuran de la siguiente manera:
 3. **Ejecución del Servidor**:
    - Iniciá el servidor del **backend** con:
      ```bash
-     npm start
+     npm run dev
      ```
    - Iniciá el servidor del **frontend** con:
      ```bash
