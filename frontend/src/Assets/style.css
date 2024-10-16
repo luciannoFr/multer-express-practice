@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient-animation {
+    0% {
+      background-color: #000000;
+    }
+    25% {
+      background-color: #001c42;
+    }
+    50% {
+      background-color: #00265a;
+    }
+    75% {
+      background-color: #092244;
+    }
+    100% {
+      background-color: #000000;
+    }
+  }
+  
+  .animated-gradient {
+    animation: gradient-animation 5s ease-in-out infinite alternate;
+  }
+  
